@@ -1,4 +1,4 @@
-# Labo 8
+# Labo 08
 
 - Zorg dat Codium en alle nodige extensies zijn geïnstalleerd.
 - Volg de gegeven bestandenstructuur.
