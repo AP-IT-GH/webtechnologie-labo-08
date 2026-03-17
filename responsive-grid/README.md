@@ -1,3 +1,5 @@
+# Responsive Grid
+
 ## Responsive lay-out
 
 > Tip: Deze oefening is gebaseerd op een examenvraag.
@@ -59,7 +61,7 @@ Zet afhankelijk van de screen size de children in de volgende configuratie:
 - De tweede rij bevat twee delen "C" en twee delen "D".
 - De derde rij bevat twee delen "E" en twee delen "F".
 
-### Small screens
+#### Small screens
 
 Bij small screens moet het grid aangepast worden naar flexbox. 
 Zorg dat alle children onder elkaar komen.  De gap tussen de flex-items is 1rem.

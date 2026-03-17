@@ -1,4 +1,6 @@
-## oefening 1
+# Responsive Lists
+
+## Oefening 1
 
 Maak op basis van de opgavescreenshots de pagina na. `index.html` is gegeven.
 
