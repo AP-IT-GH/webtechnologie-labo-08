@@ -25,3 +25,29 @@ gebruik de volgende kleuren voor de tekst
 5. #dc3545 (rood)
 6. #ffffff (wit)
 7. #cf04beb4 (achtergrondkleur xxl - paars)
+
+## Verwacht resultaat
+
+Standaard, tot en met 575px (lijst-1):
+
+![lijst 1](./opgave-1.webp)
+
+Small devices, vanaf 576px (lijst-2):
+
+![lijst 2](./opgave-2.webp)
+
+Medium devices, vanaf 768px (lijst-3):
+
+![lijst 3](./opgave-3.webp)
+
+Large devices, vanaf 992px (lijst-4):
+
+![lijst 4](./opgave-4.webp)
+
+X-large devices, vanaf 1200px (lijst-5):
+
+![lijst 5](./opgave-5.webp)
+
+XX-large devices, vanaf 1400px (lijst-6):
+
+![lijst 6](./opgave-6.webp)
