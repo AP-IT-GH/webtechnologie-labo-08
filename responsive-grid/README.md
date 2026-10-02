@@ -1,6 +1,4 @@
-# Responsive Grid
-
-## Responsive lay-out
+# responsive-grid
 
 > Tip: Deze oefening is gebaseerd op een examenvraag.
 
@@ -21,7 +19,7 @@ Je krijgt een HTML-bestand met een `<section class='part'>`-element met daarin z
   <figcaption>Het eindresultaat bij schermen kleiner dan 501px</figcaption>
 </figure>
 
-### Break-points
+## Break-points
 
 In deze oefening maken we gebruik van 3 break-points:
 
@@ -29,11 +27,11 @@ In deze oefening maken we gebruik van 3 break-points:
 * **Medium screens**: schermbreedtes tussen 500px en 600px
 * **Small screens**: schermbreedtes smaller dan 500px
 
-### Layout algoritmes
+## Layout algoritmes
 
 Bij small screens wordt gebruik gemaakt van flexbox voor layouting. Bij medium en large screens maken we gebruik van een CSS grid.
 
-#### Grid configuratie
+### Grid configuratie
 
 De parent zal zowel bij large als bij medium schermen **4 kolommen** en **3 rijen** bevatten:
 
@@ -44,18 +42,18 @@ De parent zal zowel bij large als bij medium schermen **4 kolommen** en **3 rije
   - De tweede rij is 90px hoog.
   - De derde rij is 180px hoog.
   
-#### Grid-children
+### Grid-children
 
 De gap tussen de grid-items is 1rem zowel horizontaal als verticaal.
 Zet afhankelijk van de screen size de children in de volgende configuratie:
 
-##### Large Screens
+#### Large Screens
 
 - De eerste rij bevat vier delen "A".
 - De tweede rij bevat twee delen "B", een deel "C" en een deel "D".
 - De derde rij bevat één deel "E" en drie delen "F".
 
-##### Medium screens
+#### Medium screens
 
 - De eerste rij bevat een deel "A", een deel "B" en twee delen "D".
 - De tweede rij bevat twee delen "C" en twee delen "D".
@@ -66,7 +64,7 @@ Zet afhankelijk van de screen size de children in de volgende configuratie:
 Bij small screens moet het grid aangepast worden naar flexbox. 
 Zorg dat alle children onder elkaar komen.  De gap tussen de flex-items is 1rem.
 
-### Requirements
+## Requirements
 
 * Ga **mobile first** te werk.
 * Bij large en medium screens maak je gebruik de gegeven `grid-area` namen. 

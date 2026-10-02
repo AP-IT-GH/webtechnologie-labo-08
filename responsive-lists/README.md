@@ -1,6 +1,4 @@
-# Responsive Lists
-
-## Oefening 1
+# responsive-lists
 
 Maak op basis van de opgavescreenshots de pagina na. `index.html` is gegeven.
 

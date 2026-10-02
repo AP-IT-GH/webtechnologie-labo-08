@@ -1,4 +1,4 @@
-## oefening 2
+# dont-give-up
 
 Maak wat je ziet in de [video](./opgave.mp4) na. Afbeeldingen van de twee layouts zijn voorzien om gemakkelijker te controleren en `index.html` is gegeven.
 
