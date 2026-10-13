@@ -1,6 +1,6 @@
 # Labo 08
 
-- Zorg dat Codium en alle nodige extensies zijn geïnstalleerd.
+- Zorg dat Codium en alle nodige extensies zijn geïnstalleerd, zoals beschreven in [Tooling & setup](https://webtechnologie.apload.be/tooling).
 - Volg de gegeven bestandenstructuur.
 - Controleer het resultaat van je oefening met de Live server extensie.
 - Werk de onderstaande oefening van boven naar beneden af.
