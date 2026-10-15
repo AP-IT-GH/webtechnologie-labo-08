@@ -5,6 +5,8 @@ Maak wat je ziet in de [video](./opgave.mp4) na. Afbeeldingen van de twee layout
 * kleuren: red, white
 * media-query op 1000px, waarbij richting flex verandert
 * gebruik lettertype Arial. Voorzie een fallback naar eender welk serif font.
+* bouw de layout met flexbox
+* geef de container een `height` van `100vh` zodat de layout het volledige scherm vult
 
 
 ## Verwacht resultaat
