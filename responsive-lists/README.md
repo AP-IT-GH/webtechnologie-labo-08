@@ -1,51 +1,53 @@
 # responsive-lists
 
-Maak op basis van de opgavescreenshots de pagina na. `index.html` is gegeven.
+Maak de pagina na die je in de opgavescreenshots ziet. `index.html` is gegeven: je schrijft enkel CSS.
 
-Alles tot en met 575px is standaard (lijst-1)
+Op de pagina staan zes lijsten. Elke lijst zet haar items **onder elkaar** (kolom) tot haar eigen breakpoint en **naast elkaar** (rij) vanaf dat breakpoint. Zo zie je bij het versmallen van je browservenster de lijsten één voor één terugklappen naar een kolom.
 
-**Media-queries**
+**Opbouw**
 
-* small devices: gsm, 576px en groter (lijst-2)
-* medium devices: tablets, 768px en groter (lijst-3)
-* large devices: desktops, 992px en groter (lijst-4)
-* x-large devices: grote desktops, 1200px en groter (lijst-5)
-* xx-large devices: heel grote desktops, 1400px en groter (lijst-6)
+* werk mobile first: schrijf eerst de kolomversie en voeg daarna per breakpoint een `min-width` media-query toe.
+* bouw elke lijst met flexbox, zonder bolletjes.
+* geef de pagina lettertype Arial (met een fallback naar een willekeurig schreefloos font) en achtergrondkleur `#f0f0f0`.
+* de inhoud zit in een container van maximaal `1200px` breed, gecentreerd op de pagina met flexbox, met `1rem` padding rondom.
+* elk lijstitem vult de volledige breedte, heeft gecentreerde tekst, `0.75rem` padding boven en onder, achtergrondkleur `rgba(86, 61, 124, 0.15)` en een rand van `1px solid rgba(86, 61, 124, 0.2)`.
+* zet onder elke lijst `2rem` ruimte.
 
-**Tekstkleuren**
+**Breakpoints**
 
-gebruik de volgende kleuren voor de tekst
+| lijst | staat in rij vanaf | tekstkleur |
+| --- | --- | --- |
+| lijst-1 | altijd (ook onder 576px) | `#0d6efd` (blauw) |
+| lijst-2 | 576px, small devices (gsm) | `#198754` (groen) |
+| lijst-3 | 768px, medium devices (tablets) | `#0dcaf0` (cyaan) |
+| lijst-4 | 992px, large devices (desktops) | `#ffc107` (geel) |
+| lijst-5 | 1200px, x-large devices (grote desktops) | `#dc3545` (rood) |
+| lijst-6 | 1400px, xx-large devices (heel grote desktops) | `#ffffff` (wit) |
 
-1. #0d6efd (blauw)
-2. #198754 (groen)
-3. #0dcaf0 (cyaan)
-4. #ffc107 (geel)
-5. #dc3545 (rood)
-6. #ffffff (wit)
-7. #cf04beb4 (achtergrondkleur xxl - paars)
+Vanaf 1400px krijgt lijst-6 bovendien de achtergrondkleur `#cf04beb4` (paars), zodat de witte tekst leesbaar wordt.
 
 ## Verwacht resultaat
 
-Standaard, tot en met 575px (lijst-1):
+Standaard, tot en met 575px (enkel lijst-1 staat in rij):
 
 ![lijst 1](./opgave-1.webp)
 
-Small devices, vanaf 576px (lijst-2):
+Small devices, vanaf 576px (lijst-2 volgt):
 
 ![lijst 2](./opgave-2.webp)
 
-Medium devices, vanaf 768px (lijst-3):
+Medium devices, vanaf 768px (lijst-3 volgt):
 
 ![lijst 3](./opgave-3.webp)
 
-Large devices, vanaf 992px (lijst-4):
+Large devices, vanaf 992px (lijst-4 volgt):
 
 ![lijst 4](./opgave-4.webp)
 
-X-large devices, vanaf 1200px (lijst-5):
+X-large devices, vanaf 1200px (lijst-5 volgt):
 
 ![lijst 5](./opgave-5.webp)
 
-XX-large devices, vanaf 1400px (lijst-6):
+XX-large devices, vanaf 1400px (lijst-6 volgt en kleurt paars):
 
 ![lijst 6](./opgave-6.webp)
