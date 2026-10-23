@@ -1,7 +1,7 @@
 # Labo 08
 
-- Zorg dat Codium en alle nodige extensies zijn geïnstalleerd, zoals beschreven in [tooling & setup](https://ap-it-gh.github.io/webtechnologie-docusaurus/tooling).
-- Volg de [Coding Guidelines](https://ap-it-gh.github.io/webtechnologie-docusaurus/coding-guidelines)
+- Zorg dat Codium en alle nodige extensies zijn geïnstalleerd, zoals beschreven in [tooling & setup](https://webtechnologie.programmeren-ap.be/tooling).
+- Volg de [Coding Guidelines](https://webtechnologie.programmeren-ap.be/coding-guidelines)
 - Controleer het resultaat van je oefening met de Live server extensie.
 - Werk de onderstaande oefening van boven naar beneden af.
 - Verbeter je oefeningen achteraf.
